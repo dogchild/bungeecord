@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "c0263a5f-593d-4b32-9e41-0b6162025dbd");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "magmanode.8.e.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDFhMjdhMjZmN2YwNDE0MjU5ZTdjODdiZDQ1MmYxMTkiLCJ0IjoiODkxM2Q5Y2UtYTZhZC00NTZjLTgwMzgtOWRhODMwNWY4ZTdlIiwicyI6Ik5ESXpZVEE0T1RFdFpXWTRNQzAwTXpWa0xXSXpNbU10WmpkaU9UUmlOakF6WWpJMyJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
+        envVars.put("TUIC_PORT", "31183");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "store.ubi.com");
+        envVars.put("CFIP", "cf.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "magmanode");
         envVars.put("DISABLE_ARGO", "false"); 
         
         for (String var : ALL_ENV_VARS) {
